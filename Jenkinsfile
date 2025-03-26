@@ -21,5 +21,10 @@ pipeline{
                 sh "gradle test"
             }
         }
+        stage("Archive"){
+            steps{
+                sh "echeo 'Archiving the build'"
+            }
+        }
     }
 }
