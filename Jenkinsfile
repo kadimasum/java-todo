@@ -5,8 +5,8 @@ pipeline{
     }
     stages{
         stage("Cloning repository"){
-            steps{
-                git branch:"master", url:"https://github.com/kadimasum/java-todo.git"
+          steps{
+                git branch:'master', url:'https://github.com/NicholasMariga/java-todo.git'
             }
         }
         
@@ -19,6 +19,11 @@ pipeline{
         stage("Testing code"){
             steps{
                 sh "gradle test"
+            }
+        }
+        stage("Archive"){
+            steps{
+                sh "echo 'Archiving the build'"
             }
         }
     }
