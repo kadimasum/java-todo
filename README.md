@@ -13,9 +13,12 @@ Each branch contains a new "Step" of code. Please fork, then clone.
 8. Change 8
 9. Change 9
 10. Change 10
-<<<<<<< HEAD
+
+
+11. Change 11
 
 Added my test branch
-=======
-11. Change 11
->>>>>>> 9e0d1bfebc2bd95bcd7b62d520ec7a7328c6963f
+
+Added my test branch
+Added my test branch
+Added my test branch
