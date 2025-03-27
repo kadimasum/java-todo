@@ -23,7 +23,7 @@ pipeline{
         }
         stage("Archive"){
             steps{
-                sh "echeo 'Archiving the build'"
+                sh "echo 'Archiving the build'"
             }
         }
     }
