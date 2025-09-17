@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="models.TaskTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2025-09-17T14:21:31" hostname="namespace" time="0.076">
+  <properties/>
+  <testcase name="TaskInstantiatesWithDescription_true()" classname="models.TaskTest" time="0.044"/>
+  <testcase name="tasksInstantiateWithId()" classname="models.TaskTest" time="0.002"/>
+  <testcase name="updateChangesTaskContent()" classname="models.TaskTest" time="0.004"/>
+  <testcase name="isCompletedPropertyIsFalseAfterInstantiation()" classname="models.TaskTest" time="0.001"/>
+  <testcase name="NewTaskObjectGetsCorrectlyCreated_true()" classname="models.TaskTest" time="0.001"/>
+  <testcase name="AllTasksAreCorrectlyReturned_true()" classname="models.TaskTest" time="0.001"/>
+  <testcase name="findReturnsCorrectTask()" classname="models.TaskTest" time="0.001"/>
+  <testcase name="getCreatedAtInstantiatesWithCurrentTimeToday()" classname="models.TaskTest" time="0.002"/>
+  <testcase name="deleteDeletesASpecificTask()" classname="models.TaskTest" time="0.001"/>
+  <testcase name="findReturnsCorrectTaskWhenMoreThanOneTaskExists()" classname="models.TaskTest" time="0.001"/>
+  <testcase name="AllTasksContainsAllTasks_true()" classname="models.TaskTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
